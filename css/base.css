@@ -1,0 +1,327 @@
+/* 初始化样式 */
+
+body,h1,h2,h3,h4,h5,h6,p,ul,li,ol,dl,dt,dd,a,i,em,b,strong,img,input{
+	margin: 0px;
+	padding: 0px;
+	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+
+.home{
+	background: #F9F9F9;
+	width: 100%;
+	
+}
+
+/* 公共样式 */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+input {
+	background: none;
+	outline: none;  /* 处理输入框蓝色边 */
+	padding: 0px;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0px;
+	line-height: 0px;
+	visibility: hidden;
+}
+
+.clearfix {
+	zoom: 1;
+	/* 为了兼容ie浏览器 */
+}
+
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+h1{
+	font-size: 22px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 18px;
+}
+h4{
+	font-size: 16px;
+}
+h5{
+	font-size: 14px;
+}
+h6{
+	font-size: 12px;
+}
+
+.m-bottom{
+	margin-bottom: 14px;
+}
+
+.m-left{
+	margin-left: 14px;
+}
+.m-right{
+	margin-right: 14px;
+}
+.m-top{
+	margin-top: 14px;
+}
+.m-tb{
+	margin: 20px 0px;
+}
+.m-lr{
+	margin: 0px 20px;
+}
+
+.m-Top{
+	margin-top: 40px;
+}
+.flag-new{
+	background: #83C44E;
+	color:#fff;
+}
+.flag-saleoff{
+	color:#fff;
+	background: #E53935;
+}
+
+.de{
+	color: #707070;
+}
+
+
+/*头部公共属性end*/
+
+/*尾部公共属性*/
+/*页面尾部*/
+.slogan-container,.slogan-container .container{
+	height: 82px;
+	background-color: #F9F9F9;
+}
+.slogan-container .container li.con{
+	text-align: center;
+	padding-right: 90px;
+	width: 210px;
+	height: 50px;
+	margin-top: 18px;
+}
+.slogan-container .container li.con4{
+	text-align: center;
+	padding-right: 0px;
+	width: 260px;
+	height: 50px;
+	margin-top: 18px;
+}
+.slogan-container .container li a{
+	width: 210px;
+	height: 50px;
+	font-size: 18px;
+	color: #3A3A3A;
+	display: block;
+}
+.slogan-container .container li.con4 a{
+	width: 270px;
+}
+.slogan-container .container li.con3 div.biaos{
+	margin-right: 32px;
+}
+.slogan-container .container li.con div.biaos
+{
+	display: inline-block;
+	margin-top:12px ;
+}
+.slogan-container .container li.con div.biao{
+	float: left;
+	width: 48px;
+	height: 50px;
+	display: inline-block;
+	background: url(../img/jing1.png) no-repeat 2px -148px;
+}
+.slogan-container .container li.con2 div.biao{
+	background: url(../img/jing1.png) no-repeat -93px -148px;	
+}
+.slogan-container .container li.con3 div.biao{
+	background: url(../img/jing1.png) no-repeat -140px -148px;	
+}
+.slogan-container .container li.con4 div.biao{
+	background: url(../img/jing1.png) no-repeat -46px -148px;
+}
+
+.service-container{
+	height: 211px;
+	background-color:#F9F9F9;
+}
+.service-container .service{
+	height: 162px;
+	padding-top: 23px;
+	padding-bottom: 24px;
+	border-top: 1px solid #E5E5E5;
+	border-bottom: 1px solid #E5E5E5;
+}
+.service-container .service .xiang{
+	width: 920px;
+	height: 155px;
+	float: left;
+}
+.service-container .service .xiang li{
+	width: 153px;
+	height: 160px;
+}
+.service-container .service .xiang li dt{
+	line-height: 30px;
+	font-size: 14px;
+	color: #333333;
+}
+.service-container .service .xiang li dd a{
+	line-height: 20px;
+	font-size: 12px;
+	color: #777777;
+}
+.service-container .service .xiang li dd a:hover{
+	color: #CA141D;
+}
+.service-container .service .call{
+	display: inline-block;
+	width: 279px;
+	height: 160px;
+	border-left: 1px solid #E5E5E5;
+}
+.service-container .service .call .call-top{
+	width: 279px;
+	height:102px;
+}
+.service-container .service .call .call-top p.tel{
+	font-size: 22px;
+	font-weight: bolder;
+	color: #575757;
+	text-align: center;
+	line-height: 28px;
+}
+.service-container .service .call .call-top p.tel-ad{
+	font-size: 14px;
+	color: #575757;
+	text-align: center;
+	line-height: 32px;
+}
+.service-container .service .call .call-top input{
+	width: 170px;
+	height: 34px;
+	border: none;
+	border-radius: 30px;
+	background-color: #333333;
+	color: #FFFFFF;
+	margin-left: 54px;
+}
+.service-container .service .call .call-bot{
+	width: 250px;
+	height: 24px;
+	margin-left: 40px;
+	margin-top: 26px;
+}
+.service-container .service .call .call-bot h6{
+	display: inline-block;
+	float: left;	
+}
+.service-container .service .call .call-bot .tu{
+	display:  inline-block;
+}
+.service-container .service .call .call-bot li{
+	width: 24px;
+	height: 24px;
+	margin-right: 14px;
+}
+.service-container .service .call .call-bot li a img{
+	width: 24px;
+	height: 24px;
+}
+.footer-container{
+	height: 103px;
+	background-color: #F9F9F9;
+}
+.footer-container .footer{
+	height: 59px;
+	padding: 22px 0px;
+}
+.footer-container .footer .footer-area{
+	height: 59px;
+}
+.footer-container .footer .footer-area p.logo{
+	width: 82px;
+	height: 20px;
+	padding-top: 3px;
+	padding-right: 20px;
+	display: inline-table;
+}
+.footer-container .footer .footer-area p.logo img{
+	width: 82px;
+	height: 20px;
+}
+.footer-container .footer .footer-area .cont{
+	height: 59px;
+	display: inline-block;
+	line-height: 18px;
+}
+.footer-container .footer .footer-area .cont ul{
+	height: 12px;
+	margin: 6px 0px;
+}
+.footer-container .footer .footer-area .cont ul li{
+	/*width: 48px;*/
+	height: 14px;
+	padding-right: 6px;
+	border-right: 1px solid #D3D3D3;
+	margin-right: 6px;
+}
+.footer-container .footer .footer-area .cont ul li a{
+	color:#777777 ;
+	font-size: 12px;
+}
+.footer-container .footer .footer-area .cont ul li a:hover{
+	color: #CA141D;
+}
+.footer-container .footer .footer-area .cont span,
+.footer-container .footer .footer-area .cont a{
+	color: #A4A4A4;
+	font-size: 12px;
+}
+.footer-container .footer .footer-area .cont a:hover{
+	color: #CA141D;
+}
+.footer-container .footer .footer-area .footer-img{
+	width: 174px;
+	height: 24px;
+	margin-top: 2px;
+}
+.footer-container .footer .footer-area .footer-img a{
+	width: 70px;
+	height: 24px;
+	display: inline-block;
+	margin-left: 16px;
+	float: left;
+}
+
+/*尾部公共属性end*/
